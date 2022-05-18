@@ -8,7 +8,7 @@ export const Header = ({onShow}) => {
   return (
     <Fragment>
       <header className={style.header}>
-        <h1>React Meals</h1>
+        <h1 class={style.h1}>React Meals</h1>
         <HeaderCartButton onShow={onShow}/>
       </header>
       <div className={style["main-image"]}>

@@ -22,7 +22,7 @@ export const MealItem = ({id, name, price, img, description}) => {
     <li className={style.meal}>
       {console.log(img)}
       <img className={style.food} src={img} alt="food"/>
-      <div>
+      <div className={style.info_section}>
         <h3>{name}</h3>
         <div className={style.description}>{description}</div>
         <div className={style.price}>{price.toFixed(2)}</div>
