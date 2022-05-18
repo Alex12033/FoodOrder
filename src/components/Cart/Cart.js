@@ -29,6 +29,7 @@ export const Cart = ({ onClose }) => {
           name={item.name}
           amount={item.amount}
           price={item.price}
+          img={item.img}
           onRemove={cartItemRemovehandler.bind(null, item.id)}
           onAdd={cartItemAddHandler.bind(null, item)}
         />

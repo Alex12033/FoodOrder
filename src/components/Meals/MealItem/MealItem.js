@@ -6,23 +6,26 @@ import style from "./MealItem.module.css";
 
 import CartContex from "../../../store/cart-context";
 
-export const MealItem = (props) => {
+export const MealItem = ({id, name, price, img, description}) => {
   const cartCtx = useContext(CartContex);
 
   const addToCartHandler = (amount) => {
     cartCtx.addItem({
-      id: props.id,
-      name: props.name,
+      id: id,
+      name: name,
       amount: amount,
-      price: props.price,
+      price: price,
+      img: img
     });
   };
   return (
     <li className={style.meal}>
+      {console.log(img)}
+      <img className={style.food} src={img} alt="food"/>
       <div>
-        <h3>{props.name}</h3>
-        <div className={style.description}>{props.description}</div>
-        <div className={style.price}>{props.price.toFixed(2)}</div>
+        <h3>{name}</h3>
+        <div className={style.description}>{description}</div>
+        <div className={style.price}>{price.toFixed(2)}</div>
       </div>
       <div>
         <MealItemForm onAddToCart={addToCartHandler} />
