@@ -19,14 +19,14 @@ const DUMMY_MEALS = [
     name: "Schnitzel",
     description: "A german specialty!",
     price: 16.5,
-    img: "https://thumbs.dreamstime.com/b/chicken-schnitzel-white-background-fresh-made-chicken-schnitzel-chicken-schnitzel-white-background-183306623.jpg",
+    img: "https://us.123rf.com/450wm/boarding1now/boarding1now1503/boarding1now150300039/37090232-schnitzel-kotelett-schnitzel-mit-zitrone-und-petersilie-isoliert-auf-wei%C3%9Fem-hintergrund.jpg?ver=6",
   },
   {
     id: "m3",
     name: "Barbecue Burger",
     description: "American, raw, meaty",
     price: 12.99,
-    img: "https://thumbs.dreamstime.com/b/burger-chicken-cutlet-cheese-fried-bacon-vegetables-white-background-no-people-horizontal-burger-chicken-235860235.jpg",
+    img: "https://makkam.ru/d/burger_barbekyu_briosh_01.png",
   },
   {
     id: "m4",
