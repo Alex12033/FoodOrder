@@ -20,7 +20,6 @@ export const MealItem = ({id, name, price, img, description}) => {
   };
   return (
     <li className={style.meal}>
-      {console.log(img)}
       <img className={style.food} src={img} alt="food"/>
       <div className={style.info_section}>
         <h3>{name}</h3>

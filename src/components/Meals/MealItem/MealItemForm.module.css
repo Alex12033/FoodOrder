@@ -1,6 +1,11 @@
 .form {
     text-align: right;
+    width: 150px;
   }
+
+.notice {
+  color: red;
+}
   
   .form button {
     font: inherit;

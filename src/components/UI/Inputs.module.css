@@ -1,6 +1,7 @@
 .input {
     display: flex;
     align-items: center;
+    justify-content: right;
     margin-bottom: 0.5rem;
   }
   
@@ -10,7 +11,7 @@
   }
   
   .input input {
-    width: 1.5rem;
+    width: 2rem;
     border-radius: 5px;
     border: 1px solid #ccc;
     font: inherit;
